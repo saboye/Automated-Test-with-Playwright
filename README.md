@@ -16,7 +16,7 @@
 <br />
 <p align="center">
   <a>
-    <img src="./images/playwright.png" alt="Logo" width="450" height="500">
+    <img src="./playwright.png" alt="Logo" width="300" height="300">
   </a>
 </p>
 
