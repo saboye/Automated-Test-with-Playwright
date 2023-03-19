@@ -1,10 +1,10 @@
 const { test, expect } = require("@playwright/test");
 
-test.describe("LAMBDATEST", () => {
+test.describe("PLAYWRIGHT LAMBDATEST AUTOMATION", () => {
+ 
   test.beforeEach(async ({ page }) => {
     await page.goto("/selenium-playground");
   });
-
 
   // Test Scenario 1
   test("Verify User Can enter a message Successfully", async ({ page }) => {
@@ -13,7 +13,6 @@ test.describe("LAMBDATEST", () => {
 
     // Verify URL
     await expect(page).toHaveURL(/simple-form-demo/);
-
     // Fill in message input field
     const enterMessage = await page.locator("//input[@id='user-message']");
     await enterMessage.fill("Welcome to Lambda Test");
@@ -56,7 +55,7 @@ test.describe("LAMBDATEST", () => {
     const rangeValue = await page.locator("#rangeSuccess").innerText();
     await expect(rangeValue).toBe("95");
   });
- // Test Scenario 3
+  // Test Scenario 3
   test("Verify Submitting Contact Form", async ({ page }) => {
     // Click on "Input Form Submit" link
     await page.locator("text=Input Form Submit").click();

@@ -1,6 +1,21 @@
 // @ts-check
 const { defineConfig, devices } = require('@playwright/test');
 
+const capabilities = {
+  'browserName': 'Chrome', // Browsers allowed: `Chrome`, `MicrosoftEdge`, `pw-chromium`, `pw-firefox` and `pw-webkit`
+  'browserVersion': 'latest',
+  'LT:Options': {
+    'platform': 'Windows 10',
+    'build': 'Automated Test with Playwright Build',
+    'name': 'Automated Test with Playwright',
+    'user': process.env.LT_USERNAME,
+    'accessKey': process.env.LT_ACCESS_KEY,
+    'network': true,
+    'video': true,
+    'console': true
+  }
+}
+
 /**
  * Read environment variables from file.
  * https://github.com/motdotla/dotenv
@@ -34,6 +49,9 @@ module.exports = defineConfig({
   reporter: 'html',
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
+    
+    connectOptions: {
+      wsEndpoint: `wss://cdp.lambdatest.com/playwright?capabilities=${encodeURIComponent(JSON.stringify(capabilities))}`},
     /* Maximum time each action such as `click()` can take. Defaults to 0 (no limit). */
     actionTimeout: 0,
     /* Base URL to use in actions like `await page.goto('/')`. */
@@ -49,13 +67,13 @@ module.exports = defineConfig({
   projects: [
     {
       name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
+      use: { ...devices['Desktop Chrome'], },
     },
 
-    {
-      name: 'firefox',
-      use: { ...devices['Desktop Firefox'] },
-    },
+    // {
+    //   name: 'firefox',
+    //   use: { ...devices['Desktop Firefox'] },
+    // },
 
     {
       name: 'webkit',
