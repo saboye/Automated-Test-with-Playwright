@@ -1,12 +1,14 @@
-# Automated Test with Playwright
 
-### <h1 align="center" style="color:blue;" id="heading">TODO APP QA with Playwright and Chai</h1>
+<p align="justify">
+<h1 align="center" style="color:blue;" id="heading"> Automated Test with Playwright </h1>
+</p>
 
 ![GitHub contributors](https://img.shields.io/github/contributors/saboye/Automated-Test-with-Playwright?color=blue&logo=github&style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/saboye/Automated-Test-with-Playwright?logo=github&style=for-the-badge)
 ![GitHub issues](https://img.shields.io/github/issues-raw/saboye/Automated-Test-with-Playwright?style=for-the-badge)
 ![GitHub](https://img.shields.io/github/license/saboye/Automated-Test-with-Playwright?label=license&style=for-the-badge)
 ![GitHub last commit](https://img.shields.io/github/last-commit/saboye/Automated-Test-with-Playwright?style=for-the-badge)
+
 
 
 
@@ -29,16 +31,22 @@ This is a test suite built with [Playwright](https://playwright.dev/) that tests
 
 # Running the Test Suite
 
-To run the test suite, you will need to have Node.js and Playwright installed on your machine. You can install them by running the following commands:
+To run the test suite,  clone this repository to your local machine and you will need to have Node.js and Playwright installed on your machine. You can install them by running the following commands:
 
-```bash
+```ruby
+  git clone https://github.com/saboye/Automated-Test-with-Playwright.git
+  
+  cd QA-TODO-APP
+```
+
+```ruby
 npm install
 
 ```
 
 Then, you can run the test suite using the following command:
 
-```bash
+```ruby
 npx playwright test
 ```
 
