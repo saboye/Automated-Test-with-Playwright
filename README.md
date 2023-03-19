@@ -3,7 +3,7 @@
 ### <h1 align="center" style="color:blue;" id="heading">TODO APP QA with Playwright and Chai</h1>
 
 ![GitHub contributors](https://img.shields.io/github/contributors/saboye/Automated-Test-with-Playwright?color=blue&logo=github&style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/saboye/Automated-Test-with-PlaywrightP?logo=github&style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/saboye/Automated-Test-with-Playwright?logo=github&style=for-the-badge)
 ![GitHub issues](https://img.shields.io/github/issues-raw/saboye/Automated-Test-with-Playwright?style=for-the-badge)
 ![GitHub](https://img.shields.io/github/license/saboye/Automated-Test-with-Playwright?label=license&style=for-the-badge)
 ![GitHub last commit](https://img.shields.io/github/last-commit/saboye/Automated-Test-with-Playwright?style=for-the-badge)
