@@ -38,7 +38,7 @@ To run the test suite,  clone this repository to your local machine and you will
 ```ruby
   git clone https://github.com/saboye/Automated-Test-with-Playwright.git
   
-  cd QA-TODO-APP
+  cd Automated-Test-with-Playwright
 ```
 
 ```ruby
