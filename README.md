@@ -6,13 +6,15 @@
 
 
 <p align="center">
-  <img src="https://img.shields.io/github/contributors/saboye/JSBootcampChallenges?color=blue&logo=github&style=for-the-badge">
-  <img src="https://img.shields.io/github/forks/saboye/JSBootcampChallenges?logo=github&style=for-the-badge">
-  <img src="https://img.shields.io/github/issues-raw/saboye/JSBootcampChallenges?style=for-the-badge">
-  <img src="https://img.shields.io/github/last-commit/saboye/JSBootcampChallenges?style=for-the-badge">
-  <img src="https://img.shields.io/badge/JavaScript-ES6-green?style=for-the-badge&logo=javascript">
-  <img src="https://img.shields.io/badge/Chai-4.3.4-yellow?style=for-the-badge&logo=chai">
-  <img src="https://img.shields.io/badge/Mocha-9.1.3-orange?style=for-the-badge&logo=mocha">
+<img src="https://img.shields.io/github/contributors/saboye/Automated-Test-with-Playwright?color=blue&logo=github&style=for-the-badge" alt="GitHub contributors">
+<img src="https://img.shields.io/github/forks/saboye/Automated-Test-with-Playwright?logo=github&style=for-the-badge" alt="GitHub forks">
+<img src="https://img.shields.io/github/issues-raw/saboye/Automated-Test-with-Playwright?style=for-the-badge" alt="GitHub issues">
+<img src="https://img.shields.io/github/license/saboye/Automated-Test-with-Playwright?label=license&style=for-the-badge" alt="GitHub license">
+<img src="https://img.shields.io/github/last-commit/saboye/Automated-Test-with-Playwright?style=for-the-badge" alt="GitHub last commit">
+<img src="https://img.shields.io/badge/Playwright-1.31.2-green?style=for-the-badge&logo=playwright" alt="Playwright">
+<img src="https://img.shields.io/badge/Node.js-v14.16.0-green?style=for-the-badge&logo=node.js" alt="Node.js">
+<img src="https://img.shields.io/badge/JavaScript-ES6-green?style=for-the-badge&logo=javascript" alt="JavaScript">
+<img src="https://img.shields.io/badge/LambdaTest-Cloud%20Testing-yellow?style=for-the-badge&logo=lambdatest" alt="LambdaTest">
 </p>
 
 
