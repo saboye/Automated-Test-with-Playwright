@@ -5,12 +5,19 @@
 </p>
 
 
+<p align="center">
+
 ![GitHub contributors](https://img.shields.io/github/contributors/saboye/Automated-Test-with-Playwright?color=blue&logo=github&style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/saboye/Automated-Test-with-Playwright?logo=github&style=for-the-badge)
 ![GitHub issues](https://img.shields.io/github/issues-raw/saboye/Automated-Test-with-Playwright?style=for-the-badge)
 ![GitHub](https://img.shields.io/github/license/saboye/Automated-Test-with-Playwright?label=license&style=for-the-badge)
 ![GitHub last commit](https://img.shields.io/github/last-commit/saboye/Automated-Test-with-Playwright?style=for-the-badge)
+![Playwright](https://img.shields.io/badge/Playwright-1.31.2-green?style=for-the-badge&logo=playwright)
+![Node.js](https://img.shields.io/badge/Node.js-v14.16.0-green?style=for-the-badge&logo=node.js)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-green?style=for-the-badge&logo=javascript)
+![LambdaTest](https://img.shields.io/badge/LambdaTest-Cloud%20Testing-yellow?style=for-the-badge&logo=lambdatest)
 
+</p>
 
 
 
